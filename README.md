@@ -127,16 +127,17 @@ You can access the dashboard at:
 ## Project Structure
 
 ```
-waste-management-dashboard/
+swm/
 │
-├── app.py               # Main Flask app
-├── dashboard.py         # Dash dashboard app
-├── swm_client.py        # BIN IOT simulator
-├── swm_mqtt_db.py       # MQTT msg receiver & storage
-├── requirements.txt     # Python dependencies
-├── README.md            # Project documentation
-├── assets/              # Optional folder for CSS, JS, images, etc.
-└── config/              # Optional configuration files
+├── src/app.py               # Main Flask app
+├── src/dashboard.py         # Dash dashboard app
+├── src/swm_client.py        # BIN IOT simulator
+├── src/swm_mqtt_db.py       # MQTT msg receiver & storage
+├── src/config.py            # config files for DB & MQTT server access info
+├── requirements.txt         # Python dependencies
+├── README.md                # Project documentation
+├── assets/                  # Optional folder for CSS, JS, images, etc.
+└── config/                  # Optional configuration files
 ```
 
 ---
@@ -159,6 +160,23 @@ You can modify the following components to fit your needs:
 3. **Dashboard**: Customize the Dash layout and add new components if necessary.
 
 ---
+
+## ScreenShot
+
+BIN Client
+![cmd_dGnGwsKn8F](https://github.com/user-attachments/assets/fd3319b3-c060-4137-abe6-25f2df595a8c)
+
+MQTT & DB hanlers
+![image](https://github.com/user-attachments/assets/10d5ea93-a9c5-44c6-916f-d4ab247a1671)
+
+
+Dashboard
+![image](https://github.com/user-attachments/assets/8393b3c3-f97b-4138-ac13-cb692f74ee74)
+
+Flask webserver @ pythonAnywhere
+![image](https://github.com/user-attachments/assets/9be78358-759e-4d7c-9b7e-c9caeeaf789b)
+
+
 
 ## Troubleshooting
 
